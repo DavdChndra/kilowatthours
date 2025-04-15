@@ -69,10 +69,9 @@ section {
 
 h6.ProdukAbout {
   background-color: #af1116;
-  padding: 20px;
   border-radius: 15px;
   color: white;
-  width: 90%;
+  width: 70%;
 }
 
 .ImageProduct {
@@ -99,16 +98,13 @@ h6.ProdukAbout {
 }
 
 .BeliBTN{
-  width: 35%;
+  width: 50%;
 }
 
-.BeliLink{
+.BeliBTN{
   color: #af1116;
 }
 
-.BeliLink:hover{
-  color: white;
-}
 
 .DetailBTN:hover,
 .BeliBTN:hover {
@@ -118,16 +114,8 @@ h6.ProdukAbout {
 }
 
 @media (max-width: 767px) {
-  .ContactSocialMedia1,
-  .ContactSocialMedia2 {
+  .ContactSocialMedia2{
     margin-bottom: 15px;
-  }
-}
-
-@media (max-width: 472px) {
-  .ContactSocialMedia2,
-  .ContactSocialMedia3 {
-    margin-top: 1px;
   }
 }
 
