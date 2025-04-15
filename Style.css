@@ -98,6 +98,18 @@ h6.ProdukAbout {
   color: #af1116;
 }
 
+.BeliBTN{
+  width: 35%;
+}
+
+.BeliLink{
+  color: #af1116;
+}
+
+.BeliLink:hover{
+  color: white;
+}
+
 .DetailBTN:hover,
 .BeliBTN:hover {
   background-color: #af1116;
