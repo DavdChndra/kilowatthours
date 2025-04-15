@@ -6,12 +6,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="Style.css" />
+    <link rel="icon" type="image/gif/png" href="Assets/Logo.png" />
     <title>KiloWattHours</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg sticky-top" id="navbar-KWH">
       <div class="container">
-        <a class="linkNav navbar-brand fs-3 fw-bold" href="#">KiloWattHours</a>
+        <a class="NamaNav linkNav navbar-brand fs-3 fw-bold" href="#">KiloWattHours</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <i class="logoNavbar bi bi-three-dots"></i>
         </button>
@@ -41,8 +42,8 @@
             <img src="Assets/Logo.png" alt="Logo KWH" class="Image mx-auto d-block" />
           </div>
           <div class="Teks col-12 col-md-6">
-            <h3 class="Kalimat fw-bold">Chiki Mix lezat & Minuman Kekinian dengan botol bohlam yang unik !</h3>
-            <h5 class="my-4">Mau Coba !? <a class="btnPesan btn mx-2 rounded-pill" href="">Pesan Sekarang</a></h5>
+            <h3 class="Kalimat fw-bold">Chiki Mix lezat & Minuman Kekinian dengan botol bohlam yang unik!</h3>
+            <h5 class="my-4">Penasaran? Mau Coba!? <a class="btnOurProduk btn mx-2 rounded-pill" href="#Produk">Lihat Produk</a></h5>
           </div>
         </div>
       </section>
@@ -57,9 +58,55 @@
                     <img src="Assets/Logo.png" alt="GambarProduk1" class="ImageProduct d-flex mx-auto" />
                   </div>
                   <div class="ProductName col">
-                    <h5 class="fw-bold mb-3">Chiki Mix</h5>
-                    <button class="DetailBTN btn rounded-pill">Detail</button>
-                    <button class="BeliBTN btn rounded-circle"><i class="bi bi-bag"></i></button>
+                    <h5 class="fw-bold mb-2">Chiki Mix</h5>
+                    <h6 class="mb-3">Rp. 25.000</h6>
+                    <button class="DetailBTN btn rounded-pill" data-bs-toggle="modal" data-bs-target="#Produk1">Detail</button>
+
+                    <div class="modal fade" id="Produk1" tabindex="-1" aria-labelledby="Produk1Label" aria-hidden="true">
+                      <div class="modal-dialog modal-xl modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="Produk1Label">Chiki Mix</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body p-5">
+                            <div class="row">
+                              <div class="col-lg-4 col-md-12"></div>
+                              <div class="col-lg-8 col-md-12">
+                                <h3 class="fw-bold">Chiki Mix</h3>
+                                <p>
+                                  Chiki mix merupakan salah satu snack yang sedang viral saat ini. Makanan ini memiliki cita rasa yang unik dari chiki yang dicampur dengan berbagai topping lezat, sehingga bisa dicampur sesuai keinginan
+                                  Anda.
+                                </p>
+                                <h6>Rp. 25.000</h6>
+                                <div class="row mt-4">
+                                  <div class="col">
+                                    <h6 class="fw-bold">Pilihan Chiki</h6>
+                                    <ul>
+                                      <li>Chitato Lite Seaweed</li>
+                                      <li>Piattos BBQ</li>
+                                      <li>Qtela Original/BBQ</li>
+                                      <li>Maxcorn</li>
+                                    </ul>
+                                  </div>
+                                  <div class="col">
+                                    <h6 class="fw-bold">Add On Topping</h6>
+                                    <ul>
+                                      <li>Nugget Ayam</li>
+                                      <li>Sosis Ayam</li>
+                                      <li>Saus Sambal</li>
+                                      <li>Saus Tomat</li>
+                                      <li>Saus Mayo</li>
+                                      <li>Saus Bolognese Sapi</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -71,13 +118,43 @@
                     <img src="Assets/Logo.png" alt="GambarProduk2" class="ImageProduct d-flex mx-auto" />
                   </div>
                   <div class="ProductName col">
-                    <h5 class="fw-bold mb-3">Minuman Bohlam</h5>
-                    <button class="DetailBTN btn rounded-pill">Detail</button>
-                    <button class="BeliBTN btn rounded-circle"><i class="bi bi-bag"></i></button>
+                    <h5 class="fw-bold mb-2">Minuman Bohlam</h5>
+                    <h6 class="mb-3">Rp. 25.000</h6>
+                    <button class="DetailBTN btn rounded-pill" data-bs-toggle="modal" data-bs-target="#Produk2">Detail</button>
+
+                    <div class="modal fade" id="Produk2" tabindex="-1" aria-labelledby="Produk2Label" aria-hidden="true">
+                      <div class="modal-dialog modal-xl modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="Produk2Label">Minuman Bohlam</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body p-5">
+                            <div class="row">
+                              <div class="col-lg-4 col-md-12"></div>
+                              <div class="col-lg-8 col-md-12">
+                                <h3 class="fw-bold">Minuman Bohlam</h3>
+                                <p>
+                                  Berbagai jenis minuman dengan kemasan ciri khas KiloWattHours yang dapat dipilih sesuai dengan keinginan anda. Dengan pilihan antara Thai Tea yang milky atau Lychee Yakult dan Lemon Soda yang menyegarkan.
+                                </p>
+                                <h6>Rp. 25.000</h6>
+                                <h6 class="fw-bold mt-4">Pilihan Minuman</h6>
+                                <ul>
+                                  <li>Lychee Yakult</li>
+                                  <li>Lemon Soda</li>
+                                  <li>Thai Tea</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+            <button class="BeliBTN btn rounded-pill w-50 mx-auto mt-4"><i class="bi bi-bag mx-2"></i> Pesan Produk </button>
           </div>
         </div>
       </section>
@@ -89,7 +166,9 @@
             berbentuk bohlam yang mencerminkan nama dari usaha (KwH).
           </h6>
           <h6 class="ProdukAbout text-center mx-auto my-4">
-            <strong>Chiki Mix</strong> memungkinkan pelanggan meracik sendiri camilan favorit mereka sesuai selera dengan konsep yang ditawarkan. <br> <br> <strong>Minuman Bohlam</strong> dengan berbagai varian rasa seperti Thai Tea, Lychee Yakult, dan Lemon Soda yang menyegarkan dengan kemasan unik.
+            <strong>Chiki Mix</strong> memungkinkan pelanggan meracik sendiri camilan favorit mereka sesuai selera dengan konsep yang ditawarkan. <br />
+            <br />
+            <strong>Minuman Bohlam</strong> dengan berbagai varian rasa seperti Thai Tea, Lychee Yakult, dan Lemon Soda yang menyegarkan dengan kemasan unik.
           </h6>
           <h6 class="text-center w-75 mx-auto">
             Target utama dari usaha ini berfokus pada retailing produk pada populasi konsumen dalam rentang usia 17-40 tahun dengan target utama kalangan muda yang tertarik terhadap tren makanan. KiloWattHours akan memanfaatkan influence
@@ -102,8 +181,12 @@
           <h3 class="text-center fw-bold mb-5">Contact & Social Media</h3>
           <div class="row w-75 mx-auto">
             <a href="" class="ContactSocialMedia1 col mx-2 d-flex align-items-center justify-content-center fs-5 text-decoration-none fw-bold"><i class="bi bi-whatsapp me-2"></i> Whatsapp</a>
-            <a href="" class="ContactSocialMedia2 col mx-2 d-flex align-items-center justify-content-center fs-5 text-decoration-none fw-bold"><i class="bi bi-instagram me-2"></i> Instagram</a>
-            <a href="" class="ContactSocialMedia3 col mx-2 d-flex align-items-center justify-content-center fs-5 text-decoration-none fw-bold"><i class="bi bi-tiktok me-2"></i> Tiktok</a>
+            <a href="https://www.instagram.com/killowatthrs?igsh=MWFwNGxteTZxeDl6YQ==" class="ContactSocialMedia2 col mx-2 d-flex align-items-center justify-content-center fs-5 text-decoration-none fw-bold" target="_blank"
+              ><i class="bi bi-instagram me-2"></i> Instagram</a
+            >
+            <a href="https://www.tiktok.com/@kilowatthours8?_t=ZS-8vXhh7a32Up&_r=1" class="ContactSocialMedia3 col mx-2 d-flex align-items-center justify-content-center fs-5 text-decoration-none fw-bold" target="_blank"
+              ><i class="bi bi-tiktok me-2"></i> Tiktok</a
+            >
           </div>
         </div>
       </section>
